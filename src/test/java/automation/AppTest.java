@@ -50,6 +50,8 @@ public class AppTest {
 		report.setSystemInfo("Platform", System.getProperty("os.name"));
 	}
 	
+	
+	//Test
 	@Test
 	public void apiTesting() {
 		test = report.createTest("<b>[API]</b> Validate response code");
